@@ -38,6 +38,23 @@ export default function Home() {
     "Valuation Guidance",
   ];
 
+  const testimonials = [
+  {
+    quote:"Oakwire Limited provided clear guidance and made the valuation process easy to understand.",
+    name: "Nairobi Client",
+  },
+  {
+    quote:
+      "Professional, responsive, and reliable support for our property decision.",
+    name: "Property Owner",
+  },
+  {
+    quote:
+      "The team explained the process clearly and helped us approach our land purchase with more confidence.",
+    name: "Land Buyer",
+  },
+];
+
   return (
     <main className="bg-[#f8f6f0] text-[#1f2933]">
       {/* Hero */}
@@ -310,6 +327,39 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Testimonials */}
+<section className="px-6 py-20 md:px-16 lg:px-24">
+  <div className="mx-auto max-w-7xl">
+    <div className="max-w-3xl">
+      <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-[#b08d57]">
+        Client Confidence
+      </p>
+
+      <h2 className="text-3xl font-bold text-[#123524] md:text-4xl">
+        Trusted Property Guidance
+      </h2>
+
+      <p className="mt-5 leading-8 text-gray-700">
+        Oakwire Limited focuses on clear communication, practical valuation
+        support, and reliable real estate advisory.
+      </p>
+    </div>
+
+    <div className="mt-10 grid gap-6 md:grid-cols-3">
+      {testimonials.map((item) => (
+        <div
+          key={item.name}
+          className="rounded-3xl bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md"
+        >
+          <p className="text-4xl text-[#b08d57]">“</p>
+          <p className="mt-2 leading-7 text-gray-700">{item.quote}</p>
+          <p className="mt-6 font-semibold text-[#123524]">{item.name}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
 
       {/* Final CTA */}
       <section id="final-cta" className="bg-[#123524] px-6 py-20 text-white md:px-16 lg:px-24">
