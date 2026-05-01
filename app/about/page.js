@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "About Oakwire Limited | Real Estate Valuation & Advisory in Nairobi",
+  title: "About Oakwire Limited | Real Estate Valuation & Advisory ",
   description:
-    "Learn about Oakwire Limited, a Nairobi-based real estate advisory company focused on land valuation, property valuation, and professional property guidance.",
+    "Learn about Oakwire Limited, a real estate advisory company focused on land valuation, property valuation, and professional property guidance.",
 };
 
 export default function AboutPage() {
@@ -37,7 +37,7 @@ export default function AboutPage() {
           </h1>
 
           <p className="mt-6 max-w-3xl text-lg leading-8 text-gray-700">
-            Oakwire Limited is a Nairobi-based real estate advisory company
+            Oakwire Limited is a real estate advisory company
             helping individuals, investors, businesses, and institutions make
             informed property decisions through professional land and property
             valuation services.
@@ -89,7 +89,7 @@ export default function AboutPage() {
             <h2 className="text-2xl font-bold text-[#123524]">Our Vision</h2>
             <p className="mt-4 leading-8 text-gray-700">
               To become a trusted real estate valuation and advisory partner in
-              Nairobi and across Kenya.
+              Kenya and across the Globe
             </p>
           </div>
         </div>
@@ -126,7 +126,7 @@ export default function AboutPage() {
           </h2>
           <p className="mt-4 text-gray-200">
             Talk to Oakwire Limited for reliable land valuation, property
-            valuation, and real estate advisory support in Nairobi.
+            valuation, and real estate advisory support.
           </p>
           <a
             href="/contact"

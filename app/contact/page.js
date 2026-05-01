@@ -27,7 +27,7 @@ export default function ContactPage() {
 
             <div className="mt-10 space-y-4 rounded-2xl bg-white p-6 shadow-sm">
               <p className="font-semibold text-[#123524]">Contact Details</p>
-              <p className="text-gray-700">Nairobi, Kenya</p>
+              <p className="text-gray-700">Kenya</p>
               <p className="text-gray-700">Email: info@oakwire.co.ke</p>
               <p className="text-gray-700">Phone: +254 722 745 287</p>
             </div>

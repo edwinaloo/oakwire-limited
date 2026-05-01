@@ -2,9 +2,9 @@ import Link from "next/link";
 import { blogs } from "./data/blogs";
 
 export const metadata = {
-  title: "Oakwire Limited | Land & Property Valuation Services in Nairobi",
+  title: "Oakwire Limited | Land & Property Valuation Services",
   description:
-    "Oakwire Limited provides professional land and property valuation services in Nairobi, Kenya, with support in real estate advisory, estate agency, property management, and project management.",
+    "Oakwire Limited provides professional land and property valuation services in Kenya, with support in real estate advisory, estate agency, property management, and project management.",
 };
 
 export default function Home() {
@@ -71,7 +71,7 @@ export default function Home() {
             </p>
 
             <h1 className="text-4xl font-bold leading-tight text-[#123524] md:text-6xl">
-              Trusted Land & Property Valuation Services in Nairobi
+              Trusted Land & Property Valuation Services in Kenya
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-gray-700">

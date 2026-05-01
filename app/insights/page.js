@@ -23,7 +23,7 @@ export default function InsightsPage() {
           <p className="mt-6 max-w-3xl text-lg leading-8 text-gray-700">
             Practical articles from Oakwire Limited to help clients understand
             land valuation, property decisions, and real estate advisory matters
-            in Kenya.
+            across the world
           </p>
         </div>
       </section>

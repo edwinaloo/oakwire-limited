@@ -7,7 +7,7 @@ export default function ContactForm() {
     name: "",
     phone: "",
     email: "",
-    service: "Land Valuation",
+    service: "Land Purchasing",
     location: "",
     message: "",
   });
@@ -112,6 +112,7 @@ ${formData.message}`;
           <option>Project Management</option>
           <option>Real Estate Advisory</option>
           <option>General Enquiry</option>
+          <option>Property Purchasing</option>
         </select>
 
         <input

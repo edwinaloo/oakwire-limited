@@ -1,7 +1,7 @@
 export const blogs = [
   {
     slug: "how-land-valuation-works-in-kenya",
-    title: "How Land Valuation Works in Kenya",
+    title: "How Land Valuation Works ",
     tag: "Valuation",
     readTime: "4 min read",
     description:
@@ -16,25 +16,6 @@ A valuer may consider several factors, including the land size, title details, z
 For example, land in a well-connected Nairobi neighbourhood may have a different value from land of the same size in a less accessible area. This is why valuation is not guesswork. It combines property inspection, document review, market research, and professional judgement.
 
 Oakwire Limited supports clients by helping them understand property value before they buy, sell, finance, develop, or manage land.
-    `,
-  },
-  {
-    slug: "documents-needed-for-property-valuation-in-kenya",
-    title: "Documents Needed for Property Valuation in Kenya",
-    tag: "Guide",
-    readTime: "3 min read",
-    description:
-      "A practical checklist of documents clients may need when preparing for a land or property valuation.",
-    content: `
-Preparing the right documents makes the valuation process smoother and more reliable. The exact documents may vary depending on the property type and purpose of valuation, but several documents are commonly requested.
-
-Common documents include a copy of the title deed or ownership document, property location details, land reference number or parcel number, official search where available, survey map, building plans for developed property, lease agreements, rent schedules, and any previous valuation reports.
-
-For stamp duty valuation, the Ministry of Lands lists requirements such as a valuation request, title, transfer document, search, map, and approved building plans where applicable.
-
-If the property generates income, rental details may also be useful. For developed property, approved plans and property condition details can help the valuer understand the asset better.
-
-Before requesting valuation, clients should gather accurate ownership and location information. This helps reduce delays and improves the quality of the valuation guidance provided.
     `,
   },
   {
@@ -79,19 +60,19 @@ Oakwire Limited helps clients understand which type of valuation fits their situ
   },
   {
     slug: "how-to-choose-a-property-valuer-in-nairobi",
-    title: "How to Choose a Property Valuer in Nairobi",
+    title: "How to Choose a Property Valuer ",
     tag: "Advisory",
     readTime: "4 min read",
     description:
-      "Key things to consider when looking for reliable property valuation support in Nairobi.",
+      "Key things to consider when looking for reliable property valuation support.",
     content: `
-Choosing the right property valuer matters because valuation affects serious financial and legal decisions. A good valuer should be professional, clear, informed, and familiar with the local market.
+Choosing the right property valuer matters because valuation affects serious financial and legal decisions. A good valuer should be professional, clear, informed, and familiar with the market.
 
 In Kenya, the Valuers Registration Board regulates land and property valuation practice. This makes professional registration and compliance important when seeking valuation services.
 
-When choosing a valuer in Nairobi, consider their understanding of the local property market, communication style, report clarity, experience with your property type, and ability to explain the valuation process.
+When choosing a valuer, consider their understanding of the property market, communication style, report clarity, experience with your property type, and ability to explain the valuation process.
 
-You should also ask what documents are needed, how long the process may take, whether inspection is required, and what the final output will include.
+You should also ask how long the process may take, whether inspection is required, and what the final output will include.
 
 A reliable valuer should not simply give a number. They should help you understand the reasoning behind the valuation so you can make a confident property decision.
     `,

@@ -59,7 +59,7 @@ export default async function BlogPost({ params }) {
 
           <p className="mt-4 leading-7 text-gray-200">
             Talk to Oakwire Limited for land valuation, property valuation, and
-            real estate advisory support in Nairobi.
+            real estate advisory support.
           </p>
 
           <Link

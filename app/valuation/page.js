@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "Land & Property Valuation Services in Nairobi | Oakwire Limited",
+  title: "Land & Property Valuation Services in Kenya | Oakwire Limited",
   description:
-    "Oakwire Limited provides professional land and property valuation services in Nairobi, Kenya for buyers, sellers, investors, businesses, and institutions.",
+    "Oakwire Limited provides professional land and property valuation services in Kenya for buyers, sellers, investors, businesses, and institutions.",
 };
 
 export default function ValuationPage() {
@@ -80,7 +80,7 @@ export default function ValuationPage() {
           </p>
 
           <h1 className="max-w-4xl text-4xl font-bold leading-tight text-[#123524] md:text-6xl">
-            Land & Property Valuation Services in Nairobi, Kenya
+            Land & Property Valuation Services in Kenya
           </h1>
 
           <p className="mt-6 max-w-3xl text-lg leading-8 text-gray-700">
