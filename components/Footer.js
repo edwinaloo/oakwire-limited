@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="mt-8 flex flex-col gap-2 text-sm text-gray-300">
           <p>Nairobi, Kenya</p>
           <p>Email: info@oakwire.co.ke</p>
-          <p>Phone: +254 XXX XXX XXX</p>
+          <p>Phone: +254 722 745 287</p>
         </div>
 
         <p className="mt-10 text-xs text-gray-400">
