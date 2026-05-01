@@ -64,6 +64,10 @@ export default function Navbar() {
             Valuation
           </Link>
 
+          <Link href="/properties" className="text-gray-700 hover:text-[#123524]">
+            Properties
+          </Link>
+
           <Link href="/insights" className="text-gray-700 hover:text-[#123524]">
             Insights
           </Link>

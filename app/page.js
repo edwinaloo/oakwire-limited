@@ -10,7 +10,7 @@ export const metadata = {
 export default function Home() {
   const services = [
     {
-      title: "Land & Property Valuation",
+      title: "Valuation Services",
       text: "Professional valuation support for land, residential, commercial, rental, and development-related property decisions.",
       link: "/valuation",
     },
@@ -28,6 +28,11 @@ export default function Home() {
       title: "Project Management",
       text: "Guidance for real estate development planning, coordination, monitoring, and execution.",
       link: "/project-management",
+    },
+    {
+      title: "Property Purchasing Support",
+      text: "Guidance for property buyers on valuation insight, due diligence awareness, and real estate purchasing support.",
+      link: "/property-purchasing",
     },
   ];
 
