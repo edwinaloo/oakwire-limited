@@ -42,6 +42,34 @@ export default function ValuationPage() {
     "Valuation Report",
   ];
 
+  const faqs = [
+  {
+    question: "How much does property valuation cost in Kenya?",
+    answer:
+      "The cost depends on the property type, location, purpose of valuation, and complexity of the assignment. Oakwire Limited can provide guidance after reviewing the property details.",
+  },
+  {
+    question: "How long does land or property valuation take?",
+    answer:
+      "The timeline depends on document availability, inspection needs, and the type of property. Simple valuation requests may move faster when all required documents are ready.",
+  },
+  {
+    question: "What documents are needed for property valuation?",
+    answer:
+      "Common documents include a title deed or ownership document, land reference or parcel number, location details, building plans where applicable, lease agreements, and rental income details.",
+  },
+  {
+    question: "Do you inspect the property before valuation?",
+    answer:
+      "In many cases, inspection helps confirm the property condition, location, access, improvements, and surrounding market context before valuation guidance is prepared.",
+  },
+  {
+    question: "Can valuation help before buying land?",
+    answer:
+      "Yes. Valuation helps buyers understand whether the asking price is reasonable and supports better decision-making before committing funds.",
+  },
+];
+
   return (
     <main className="bg-[#f8f6f0] text-[#1f2933]">
       {/* Hero Section */}
@@ -148,6 +176,30 @@ export default function ValuationPage() {
           </div>
         </div>
       </section>
+
+      {/* FAQs */}
+<section className="px-6 py-16 md:px-16 lg:px-24">
+  <div className="mx-auto max-w-5xl">
+    <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-[#b08d57]">
+      Frequently Asked Questions
+    </p>
+
+    <h2 className="text-3xl font-bold text-[#123524]">
+      Property Valuation FAQs
+    </h2>
+
+    <div className="mt-8 space-y-4">
+      {faqs.map((faq) => (
+        <div key={faq.question} className="rounded-2xl bg-white p-6 shadow-sm">
+          <h3 className="text-lg font-semibold text-[#123524]">
+            {faq.question}
+          </h3>
+          <p className="mt-3 leading-7 text-gray-700">{faq.answer}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
 
       {/* Final CTA */}
       <section className="bg-[#123524] px-6 py-20 text-white md:px-16 lg:px-24">
