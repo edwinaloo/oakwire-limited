@@ -21,6 +21,9 @@ export default function Navbar() {
           <Link href="/valuation" className="text-gray-700 hover:text-[#123524]">
             Valuation
           </Link>
+          <Link href="/insights" className="text-gray-700 hover:text-[#123524]">
+            Insights
+          </Link>
           <Link href="/contact" className="text-gray-700 hover:text-[#123524]">
             Contact
           </Link>
