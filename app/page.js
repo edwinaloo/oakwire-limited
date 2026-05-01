@@ -158,7 +158,7 @@ export default function Home() {
       </section>
 
       {/* Supporting Services */}
-      <section className="px-6 py-20 md:px-16 lg:px-24">
+      <section id="services" className="px-6 py-20 md:px-16 lg:px-24">
         <div className="mx-auto max-w-7xl">
           <div className="max-w-3xl">
             <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-[#b08d57]">
@@ -203,7 +203,7 @@ export default function Home() {
       </section>
 
       {/* Why Choose */}
-      <section className="bg-white px-6 py-20 md:px-16 lg:px-24">
+      <section id="why-choose" className="bg-white px-6 py-20 md:px-16 lg:px-24">
         <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-2">
           <div>
             <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-[#b08d57]">
@@ -237,7 +237,7 @@ export default function Home() {
       </section>
 
       {/* Process */}
-      <section className="px-6 py-20 md:px-16 lg:px-24">
+      <section id="process" className="px-6 py-20 md:px-16 lg:px-24">
         <div className="mx-auto max-w-7xl">
           <h2 className="text-3xl font-bold text-[#123524] md:text-4xl">
             How Our Valuation Process Works
@@ -263,7 +263,7 @@ export default function Home() {
       </section>
 
       {/* Blog Preview */}
-      <section className="bg-white px-6 py-20 md:px-16 lg:px-24">
+      <section id="blog" className="bg-white px-6 py-20 md:px-16 lg:px-24">
         <div className="mx-auto max-w-7xl">
           <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
             <div>
@@ -312,7 +312,7 @@ export default function Home() {
       </section>
 
       {/* Final CTA */}
-      <section className="bg-[#123524] px-6 py-20 text-white md:px-16 lg:px-24">
+      <section id="final-cta" className="bg-[#123524] px-6 py-20 text-white md:px-16 lg:px-24">
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="text-3xl font-bold md:text-4xl">
             Need a Land or Property Valuation in Nairobi?
