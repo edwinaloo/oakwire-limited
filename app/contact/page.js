@@ -1,3 +1,4 @@
+import ContactForm from "../../components/ContactForm";
 export const metadata = {
   title: "Contact Oakwire Limited | Request a Property Valuation in Nairobi",
   description:
@@ -32,94 +33,8 @@ export default function ContactPage() {
             </div>
           </div>
 
-          <form className="rounded-3xl bg-white p-6 shadow-sm md:p-8">
-            <div className="grid gap-5">
-              <div>
-                <label className="mb-2 block text-sm font-medium text-gray-700">
-                  Full Name
-                </label>
-                <input
-                  type="text"
-                  placeholder="Your full name"
-                  className="w-full rounded-xl border border-gray-300 px-4 py-3 outline-none focus:border-[#123524]"
-                />
-              </div>
-
-              <div>
-                <label className="mb-2 block text-sm font-medium text-gray-700">
-                  Phone Number
-                </label>
-                <input
-                  type="tel"
-                  placeholder="+254722745287"
-                  className="w-full rounded-xl border border-gray-300 px-4 py-3 outline-none focus:border-[#123524]"
-                />
-              </div>
-
-              <div>
-                <label className="mb-2 block text-sm font-medium text-gray-700">
-                  Email Address
-                </label>
-                <input
-                  type="email"
-                  placeholder="you@example.com"
-                  className="w-full rounded-xl border border-gray-300 px-4 py-3 outline-none focus:border-[#123524]"
-                />
-              </div>
-
-              <div>
-                <label className="mb-2 block text-sm font-medium text-gray-700">
-                  Service Needed
-                </label>
-                <select className="w-full rounded-xl border border-gray-300 px-4 py-3 outline-none focus:border-[#123524]">
-                  <option>Land Valuation</option>
-                  <option>Property Valuation</option>
-                  <option>Estate Agency</option>
-                  <option>Property Management</option>
-                  <option>Project Management</option>
-                  <option>Real Estate Advisory</option>
-                  <option>General Enquiry</option>
-                </select>
-              </div>
-
-              <div>
-                <label className="mb-2 block text-sm font-medium text-gray-700">
-                  Property Location
-                </label>
-                <input
-                  type="text"
-                  placeholder="Example: Kilimani, Nairobi"
-                  className="w-full rounded-xl border border-gray-300 px-4 py-3 outline-none focus:border-[#123524]"
-                />
-              </div>
-
-              <div>
-                <label className="mb-2 block text-sm font-medium text-gray-700">
-                  Message
-                </label>
-                <textarea
-                  rows="5"
-                  placeholder="Tell us what you need help with..."
-                  className="w-full rounded-xl border border-gray-300 px-4 py-3 outline-none focus:border-[#123524]"
-                ></textarea>
-              </div>
-
-              <button
-                type="submit"
-                className="rounded-full bg-[#123524] px-8 py-4 font-semibold text-white transition hover:bg-[#0b2418]"
-              >
-                Send Enquiry
-              </button>
-
-              <a
-                href="https://wa.me/254722745287"
-                target="_blank"
-                className="text-center font-semibold text-[#123524]"
-              >
-                Chat with Oakwire Limited on WhatsApp
-              </a>
-            </div>
-          </form>
+          <ContactForm />
+          
         </div>
       </section>
     </main>
