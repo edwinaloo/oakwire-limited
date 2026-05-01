@@ -12,7 +12,13 @@ export default function ContactForm() {
     message: "",
   });
 
+  const [error, setError] = useState("");
+  const [success, setSuccess] = useState(false);
+
   const handleChange = (e) => {
+    setError("");
+    setSuccess(false);
+
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
@@ -22,15 +28,20 @@ export default function ContactForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    if (!formData.name || !formData.phone || !formData.message) {
+      setError("Please fill in your name, phone number, and message.");
+      return;
+    }
+
     const text = `Hello Oakwire Limited,
 
 I would like to make an enquiry.
 
 Name: ${formData.name}
 Phone: ${formData.phone}
-Email: ${formData.email}
+Email: ${formData.email || "Not provided"}
 Service Needed: ${formData.service}
-Property Location: ${formData.location}
+Property Location: ${formData.location || "Not provided"}
 
 Message:
 ${formData.message}`;
@@ -39,6 +50,7 @@ ${formData.message}`;
       text
     )}`;
 
+    setSuccess(true);
     window.open(whatsappUrl, "_blank");
   };
 
@@ -48,11 +60,23 @@ ${formData.message}`;
       className="rounded-3xl bg-white p-6 shadow-sm md:p-8"
     >
       <div className="grid gap-5">
+        {error && (
+          <div className="rounded-xl bg-red-50 p-4 text-sm font-medium text-red-700">
+            {error}
+          </div>
+        )}
+
+        {success && (
+          <div className="rounded-xl bg-green-50 p-4 text-sm font-medium text-green-700">
+            WhatsApp is opening with your enquiry message.
+          </div>
+        )}
+
         <input
           name="name"
           type="text"
-          required
-          placeholder="Full Name"
+          placeholder="Full Name *"
+          value={formData.name}
           onChange={handleChange}
           className="w-full rounded-xl border border-gray-300 px-4 py-3 outline-none focus:border-[#123524]"
         />
@@ -60,8 +84,8 @@ ${formData.message}`;
         <input
           name="phone"
           type="tel"
-          required
-          placeholder="Phone Number"
+          placeholder="Phone Number *"
+          value={formData.phone}
           onChange={handleChange}
           className="w-full rounded-xl border border-gray-300 px-4 py-3 outline-none focus:border-[#123524]"
         />
@@ -70,12 +94,14 @@ ${formData.message}`;
           name="email"
           type="email"
           placeholder="Email Address"
+          value={formData.email}
           onChange={handleChange}
           className="w-full rounded-xl border border-gray-300 px-4 py-3 outline-none focus:border-[#123524]"
         />
 
         <select
           name="service"
+          value={formData.service}
           onChange={handleChange}
           className="w-full rounded-xl border border-gray-300 px-4 py-3 outline-none focus:border-[#123524]"
         >
@@ -92,6 +118,7 @@ ${formData.message}`;
           name="location"
           type="text"
           placeholder="Property Location e.g. Kilimani, Nairobi"
+          value={formData.location}
           onChange={handleChange}
           className="w-full rounded-xl border border-gray-300 px-4 py-3 outline-none focus:border-[#123524]"
         />
@@ -99,8 +126,8 @@ ${formData.message}`;
         <textarea
           name="message"
           rows="5"
-          required
-          placeholder="Tell us what you need help with..."
+          placeholder="Tell us what you need help with... *"
+          value={formData.message}
           onChange={handleChange}
           className="w-full rounded-xl border border-gray-300 px-4 py-3 outline-none focus:border-[#123524]"
         ></textarea>
