@@ -4,7 +4,7 @@ import { blogs } from "../data/blogs";
 export const metadata = {
   title: "Property Insights & Valuation Guides | Oakwire Limited",
   description:
-    "Read practical property valuation, land buying, and real estate advisory guides from Oakwire Limited in Nairobi, Kenya.",
+    "Read practical property valuation, land buying, and real estate advisory guides from Oakwire Limited in Kenya.",
 };
 
 export default function InsightsPage() {

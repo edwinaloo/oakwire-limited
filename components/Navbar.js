@@ -12,7 +12,7 @@ export default function Navbar() {
             alt="Oakwire Limited Logo"
             width={150}
             height={50}
-            className="h-auto w-auto"
+            className="h-20 w-auto"
             priority
           />
         </Link>

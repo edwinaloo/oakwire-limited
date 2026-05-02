@@ -80,7 +80,7 @@ export default function ValuationPage() {
           </p>
 
           <h1 className="max-w-4xl text-4xl font-bold leading-tight text-[#123524] md:text-6xl">
-            Land & Property Valuation Services in Kenya
+            Land & Property Valuation Services
           </h1>
 
           <p className="mt-6 max-w-3xl text-lg leading-8 text-gray-700">

@@ -1,8 +1,8 @@
 import ContactForm from "../../components/ContactForm";
 export const metadata = {
-  title: "Contact Oakwire Limited | Request a Property Valuation in Nairobi",
+  title: "Contact Oakwire Limited | Request a Property Valuation",
   description:
-    "Contact Oakwire Limited for land valuation, property valuation, real estate advisory, estate agency, property management, and project management support in Nairobi, Kenya.",
+    "Contact Oakwire Limited for land valuation, property valuation, real estate advisory, estate agency, property management, and project management support in Kenya.",
 };
 
 export default function ContactPage() {
