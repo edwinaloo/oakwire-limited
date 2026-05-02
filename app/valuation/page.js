@@ -25,14 +25,6 @@ export default function ValuationPage() {
     "Real estate development planning",
   ];
 
-  const documents = [
-    "Copy of title deed or ownership document",
-    "Property location details",
-    "Land reference or parcel number",
-    "Building plans, if available",
-    "Lease agreements, if applicable",
-    "Rental income details, if applicable",
-  ];
 
   const steps = [
     "Enquiry",
@@ -140,22 +132,7 @@ export default function ValuationPage() {
         </div>
       </section>
 
-      {/* Documents Required */}
-      <section className="px-6 py-16 md:px-16 lg:px-24">
-        <div className="mx-auto max-w-5xl">
-          <h2 className="text-3xl font-bold text-[#123524]">
-            Documents Required for Valuation
-          </h2>
 
-          <ul className="mt-6 space-y-3 text-gray-700">
-            {documents.map((item) => (
-              <li key={item} className="rounded-xl bg-white p-4 shadow-sm">
-                {item}
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
 
       {/* Process */}
       <section className="bg-white px-6 py-16 md:px-16 lg:px-24">
