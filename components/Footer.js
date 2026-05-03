@@ -6,12 +6,12 @@ export default function Footer() {
         <h2 className="text-xl font-bold">Oakwire Limited</h2>
 
         <p className="mt-4 max-w-md text-gray-300">
-          Professional land and property valuation services in Nairobi, Kenya,
+          Professional land and property valuation services in Kenya,
           with support in real estate advisory, estate agency, and property management.
         </p>
 
         <div className="mt-8 flex flex-col gap-2 text-sm text-gray-300">
-          <p>Nairobi, Kenya</p>
+          <p>Kenya</p>
           <p>Email: info@oakwire.co.ke</p>
           <p>Phone: +254 722 745 287</p>
         </div>

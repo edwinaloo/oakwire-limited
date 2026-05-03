@@ -71,7 +71,7 @@ export default function Home() {
             </p>
 
             <h1 className="text-4xl font-bold leading-tight text-[#123524] md:text-6xl">
-              Trusted Land & Property Valuation Services in Kenya
+              Trusted Land & Property Valuation Services
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-gray-700">
@@ -370,7 +370,7 @@ export default function Home() {
       <section id="final-cta" className="bg-[#123524] px-6 py-20 text-white md:px-16 lg:px-24">
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="text-3xl font-bold md:text-4xl">
-            Need a Land or Property Valuation in Nairobi?
+            Need a Land or Property Valuation?
           </h2>
 
           <p className="mt-5 leading-8 text-gray-200">
